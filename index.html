@@ -10,154 +10,193 @@
 
 </head>
 <body>
-    <header>
-        <nav>
-            <img src="C:\Users\maru_\Desktop\Frontend Arg programa\img\fotoDePerfil.jpg" alt="fotoDePerfil">
-            <h1>Marina Server</h1>
-            <h2>Curriculum Vitae</h2>
-            <div>
-                <button type="button">Teléfono</button>
-                <button type="button">Mail</button>
-                <button type="button">Web</button>
-                <button type="button">Ubicación</button>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <section aria-label="Resumen sobre mí">
-            <h2>Resumen sobre mí</h2>
-            <p>
-                Busco mi primer experiencia en el mundo de la experiencia de usuario y/o del diseño 
-                ya que estudié la carrera de desarrollo UX/UI en CoderHouse, actualmente estudio 
-                Diseño grafico y estoy realizando el Certificado profesional de Diseño de Experiencia 
-                de Usuario de Google, además me encuentro aprendiendo desarrollo FrontEnd con 
-                HTML, CSS y JavaScript.
-            </p>
-        </section>
-        <section aria-label="Educación">
-            <h2>EDUCACIÓN</h2>
-            <div>
-                <h3>Diseño y programación</h3>
-                <ul>
-                    <li>Diseño gráfico y comunicación visual
-                        <div>
-                            <h4>Institución: Escuela de artes visuales Rosario<br>-En curso</h4>
-                        </div>
-                    </li>
-                    <li>Desarrolladora UX/UI 
-                        <div>
-                            <h4>Institución: CoderHouse<br>-Certificada</h4>
-                        </div>
-                    </li>
-                    <li>Certificado profesional de diseño de experiencia de usuario (UX)
-                        <div>
-                            <h4>Institución: Coursera<br>-En curso</h4>
-                        </div>
-                    </li>
-                    <li>FrontEnd Academy
-                        <div>
-                            <h4>Institución: Argentina Programa<br>-Concluido</h4>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <h3>Educación general</h3>
-                <ul>
-                    <li>Psicologia
-                        <div>
-                            <h4>Institución: Universidad Nacional de Rosario<br>-Abandonado (cursado hasta 5to año)</h4>
-                        </div>
-                    </li>
-                    <li>Técnico Superior en Recursos Humanos
-                        <div>
-                            <h4>Institución: Instituto Belgrano<br>-Abandonado (cursado hasta 2do año)</h4>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section aria-label="Habilidades">
-            <h3>Habilidades</h3>
-            <ul>
-                <li>HTML, CSS, BOOSTRAP
-                    <div>
-                        <h4>Fui aprendiendo en cursos y de manera autodidactaconocimientos sobre maquetado web con HTML, CSS y boostrap</h4>
-                    </div> 
-                </li>
-                <li>JAVASCRIPT
-                    <div>
-                        <h4>Actualmente me encuentro aprendiendo programación con JavaScript a traves de cursos y también de manera autodidacta</h4>
+    <div class="container-fluid">
+        <header>
+            <nav class="row">
+                <div class="col-lg-4 col-4 align-self-end">
+                    <img src="C:\Users\maru_\Desktop\Frontend Arg programa\img\fotoDePerfil.jpg" alt="fotoDePerfil" class="fotoDePerfil">
+                </div>
+                <div class="col-lg-4 col-4 align-self-center titulos">
+                    <h1>Marina Server</h1>
+                    <h2>Curriculum Vitae</h2>
+                </div>
+                <div class="col-lg-4 col-4">
+                    <!-- para espacio derecho -->
+                </div>
+            </nav>
+                <div class="row">
+                    <div class="col-lg-12 col-12 botonesInfo">
+                        <button type="button" class="separarBotones">Teléfono</button>
+                        <button type="button" class="separarBotones">Mail</button>
+                        <button type="button" class="separarBotones">Web</button>
+                        <button type="button" class="separarBotones">Ubicación</button>
                     </div>
-                </li>
-                <li>IDIOMAS
-                    <div>
-                        <h4>Tengo nivel de inglés B1 con buena comprensión de lectura y escucha y en aprendizaje continuo de manera autodidacta</h4>
+                </div>
+        </header>
+        <main>
+            <section aria-label="Resumen sobre mí" class="row">
+                <div class="col-lg-12 col-12 resumenSobreMi">
+                    <h2>Resumen sobre mí</h2>
+                    <p>
+                        Busco mi primer experiencia en el mundo de la experiencia de usuario y/o del diseño 
+                        ya que estudié la carrera de desarrollo UX/UI en CoderHouse, actualmente estudio 
+                        Diseño grafico y estoy realizando el Certificado profesional de Diseño de Experiencia 
+                        de Usuario de Google, además me encuentro aprendiendo desarrollo FrontEnd con 
+                        HTML, CSS y JavaScript.
+                    </p>
+                </div>
+            </section>
+            <section aria-label="Educación">
+                <div class="row">
+                    <div class="col-lg-12 col-12 titulos">
+                        <h2>Educación</h2>
                     </div>
-                </li>
-                <li>OTROS
-                    <div>
-                        <h4>+Creación de piezas gráficas comunicativas</h4>
-                        <h4>+Soy muy organizada y proactiva</h4>
-                        <h4>+Tengo interacción optima en el trato cordial y empático con las personas</h4>
+                </div>
+                <div class="row educacion">
+                    <div class="col-lg-1 col-1">
+                        <!-- espacio izquierdo -->
                     </div>
-                </li>
-            </ul>
-        </section>
-        <section aria-label="Experiencia laboral">
-            <h3>Experiencia laboral</h3>
-            <ul>
-                <li>
-                    <h4>Portfolio web:</h4>
+                    <div class="col-lg-5 col-5">
+                        <h3 class="subtituloEducacion">Diseño y programación</h3>
+                        <ul>
+                            <li><h5>Diseño gráfico y comunicación visual</h5>
+                                <div>
+                                    <p>Institución: Escuela de artes visuales Rosario<br>-En curso</p>
+                                </div>
+                            </li>
+                            <li><h5>Desarrolladora UX/UI</h5> 
+                                <div>
+                                    <p>Institución: CoderHouse<br>-Certificada</p>
+                                </div>
+                            </li>
+                            <li><h5>Certificado profesional de diseño de experiencia de usuario (UX)</h5>
+                                <div>
+                                    <p>Institución: Coursera<br>-En curso</p>
+                                </div>
+                            </li>
+                            <li><h5>FrontEnd Academy</h5>
+                                <div>
+                                    <p>Institución: Argentina Programa<br>-Concluido</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-5 col-5">
+                        <h3 class="subtituloEducacion">Educación general</h3>
+                        <ul>
+                            <li><h5>Psicologia</h5>
+                                <div>
+                                    <p>Institución: Universidad Nacional de Rosario<br>-Abandonado (cursado hasta 5to año)</p>
+                                </div>
+                            </li>
+                            <li><h5>Técnico Superior en Recursos Humanos</h5>
+                                <div>
+                                    <p>Institución: Instituto Belgrano<br>-Abandonado (cursado hasta 2do año)</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-1 col-1">
+                        <!-- espacio derecho -->
+                    </div>
+                </div>
+            </section>
+            <section aria-label="Habilidades" class="row">
+                <div class="col-lg-12 col-12">
+                    <h3 class="titulos">Habilidades</h3>
                     <ul>
-                        <li>Proyecto educativo: <a href="https://marinaserver.github.io/Proyecto-desarrollo-web-Coder-House/">Click aquí</a></li>
+                        <li>HTML, CSS, BOOSTRAP
+                            <div>
+                                <p>Fui aprendiendo en cursos y de manera autodidactaconocimientos sobre maquetado web con HTML, CSS y boostrap</p>
+                            </div> 
+                        </li>
+                        <li>JAVASCRIPT
+                            <div>
+                                <p>Actualmente me encuentro aprendiendo programación con JavaScript a traves de cursos y también de manera autodidacta</p>
+                            </div>
+                        </li>
+                        <li>IDIOMAS
+                            <div>
+                                <p>Tengo nivel de inglés B1 con buena comprensión de lectura y escucha y en aprendizaje continuo de manera autodidacta</p>
+                            </div>
+                        </li>
+                        <li>OTROS
+                            <div>
+                                <p>+Creación de piezas gráficas comunicativas</p>
+                                <p>+Soy muy organizada y proactiva</p>
+                                <p>+Tengo interacción optima en el trato cordial y empático con las personas</p>
+                            </div>
+                        </li>
                     </ul>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <h4>Administrativa y gestión de RRHH <br> Fantommers S.R.L (2018 - 2021)</h4>
-                    <ul>
-                        <li>Recepción y atención de cliente y proveedores Manejo de redes sociales y publicidad web de la empresa</li>
-                        <li>Auxiliar de administración contable, conciliaciones bancarias</li>
-                        <li>Coordinación de entrevistas y proceso de selección de personal</li>
-                        <li>Manejo de compras y pedidos/reclamos de servicios</li>
-                    </ul>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <h4>Acompañante Terapéutica <br> COPNAF (2017)</h4>
-                    <ul>
-                        <li>Cuidadora temporal de un bebé sietemesino en internación hospitalaria.</li>
-                    </ul>
-                </li>
-            </ul>
-            <ul>
-                <li>
-                    <h4>Telemarketer <br> Easy Call (2014)</h4>
-                </li>
-            </ul>
-            
-            
-        </section>
+                </div>
+            </section>
+            <section aria-label="Experiencia laboral">
+                <div class="row">
+                    <div class="col-lg-12 col-12 titulos">
+                        <h3>Experiencia laboral</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-12">
+                        <ul>
+                            <li>
+                                <h4>Portfolio web:</h4>
+                                <ul>
+                                    <li>Proyecto educativo: <a href="https://marinaserver.github.io/Proyecto-desarrollo-web-Coder-House/">Click aquí</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-12">
+                        <ul> 
+                            <li>
+                                <h4>Administrativa y gestión de RRHH <br> Fantommers S.R.L (2018 - 2021)</h4>
+                                <ul>
+                                    <li>Recepción y atención de cliente y proveedores Manejo de redes sociales y publicidad web de la empresa</li>
+                                    <li>Auxiliar de administración contable, conciliaciones bancarias</li>
+                                    <li>Coordinación de entrevistas y proceso de selección de personal</li>
+                                    <li>Manejo de compras y pedidos/reclamos de servicios</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-12">
+                        <ul>
+                            <li>
+                                <h4>Acompañante Terapéutica <br> COPNAF (2017)</h4>
+                                <ul>
+                                    <li>Cuidadora temporal de un bebé sietemesino en internación hospitalaria.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-12">
+                        <ul>
+                            <li>
+                                <h4>Telemarketer <br> Easy Call (2014)</h4>
+                            </li>
+                        </ul>
+                    </div>
+                </div> 
+            </section>
 
-        
-    </main>
-    <footer class="footer">
-        <div class="row">
-        </div>
-        <div class="row">
-            <div class="col-lg-12 col-12">
-                <div class="fooLogosRedes">
-                <a href="https://www.linkedin.com/in/marina-ivana-server-071464127/"><img src="C:\Users\maru_\Desktop\Frontend Arg programa\img\logoLinkedinModif.png" alt="linkedIn " class="footer_icono animacionLK"></a>
-                <a href="https://www.instagram.com/marinaserver/"><img src="C:\Users\maru_\Desktop\Frontend Arg programa\img\logoInstagramModif.png" alt="instagram " class="footer_icono animacionIG"></a>
-                <a href="https://www.behance.net/marinaserver"><img src="C:\Users\maru_\Desktop\Frontend Arg programa\img\logoBehanceModif.png" alt="behance " class="footer_icono animacionBH"></a>
+            
+        </main>
+        <footer class="footer">
+            <div class="row">
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-12">
+                    <div class="fooLogosRedes">
+                    <a href="https://www.linkedin.com/in/marina-ivana-server-071464127/"><img src="C:\Users\maru_\Desktop\Frontend Arg programa\img\logoLinkedinModif.png" alt="linkedIn " class="footer_icono animacionLK"></a>
+                    <a href="https://www.instagram.com/marinaserver/"><img src="C:\Users\maru_\Desktop\Frontend Arg programa\img\logoInstagramModif.png" alt="instagram " class="footer_icono animacionIG"></a>
+                    <a href="https://www.behance.net/marinaserver"><img src="C:\Users\maru_\Desktop\Frontend Arg programa\img\logoBehanceModif.png" alt="behance " class="footer_icono animacionBH"></a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <script src="JS/funcion.js"></script>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <script src="JS/funcion.js"></script>
+    </div>
 </body>
 </html>

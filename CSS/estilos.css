@@ -1,5 +1,42 @@
 /* DESKTOP */
 
+.fotoDePerfil {
+    width: 40%;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 35%;
+}
+
+.botonesInfo {
+    display: flex;
+    justify-content: center;
+}
+
+.separarBotones {
+        margin: 5%;
+        border-radius: 5px;
+}
+
+.resumenSobreMi {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.titulos {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+.subtituloEducacion {
+   margin: 5%;
+}
+
+.educacion{
+    display: flex;
+    justify-content: center;
+}
+
 footer div h3 {
     text-align: center;
     margin-top: 20px;
