@@ -1,0 +1,69 @@
+/* DESKTOP */
+
+footer div h3 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px; }
+
+/* PARA CENTRAR ICONOS*/
+.fooLogosRedes {
+    display: flex;
+    justify-content: center; }
+  
+  .fooLogosRedesSinTitulo {
+    margin-top: 50px; }
+  
+  /*PARA SEPARAR ICONOS ENTRE ELLOS*/
+  .footer_icono {
+    margin: 20px;
+    padding: 25px; }
+
+    .fooLogosRedes {
+        margin-left: 400px;
+        margin-right: 400px;
+        border-radius: 25px; }
+      /*ANIMACIONES ICONOS REDES SOCIALES*/
+      .animacionLK {
+        height: 100px;
+        width: auto;
+        transition: height 0.5s; }
+      .animacionLK:hover {
+        height: 110px;
+        width: auto; }
+      .animacionIG {
+        height: 100px;
+        width: auto;
+        transition: height 0.5s; }
+      .animacionIG:hover {
+        height: 110px;
+        width: auto; }
+      .animacionBH {
+        height: 100px;
+        width: auto;
+        transition: height 0.5s; }
+      .animacionBH:hover {
+        height: 110px;
+        width: auto; }
+      /*FIN ANIMACION ICONOS REDES SOCIALES*/ 
+
+/* MOBILE */
+
+footer div h3 {
+    display: none; }
+  .fooLogosRedes {
+    margin-top: 60px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 50px;
+    border-radius: 25px; }
+  .footer_icono {
+    margin: 5px;
+    padding: 5px;
+    height: 45px;
+    width: auto; }
+  .bodyPortafolio {
+    overflow-y: hidden; }
+  .container-fluid {
+    height: 100%; }
+  .footerPortafolio {
+    margin-top: 128px; }
