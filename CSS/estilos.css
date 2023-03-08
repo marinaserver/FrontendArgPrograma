@@ -1,4 +1,7 @@
-/* DESKTOP */
+
+.colorFondo{
+    background-color: #70C1A7;
+}
 
 .fotoDePerfil {
     width: 40%;
@@ -20,12 +23,27 @@
 .resumenSobreMi {
     text-align: center;
     margin-top: 20px;
+    font-family: 'Courgette', cursive;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.resumenSobreMi p {
+    margin: 2%;
+    font-family: 'Courgette', cursive;
+    font-family: 'Shantell Sans', cursive;
 }
 
 .titulos {
     text-align: center;
     margin-top: 5%;
-    margin-bottom: 1%;
+    margin-bottom: 3%;
+    font-family: 'Courgette', cursive;
+    font-family: 'Shantell Sans', cursive;
+}
+
+tituloCV {
+    font-family: font-family: 'Courgette', cursive;
+    font-family: 'Shantell Sans', cursive;
 }
 
 .subtituloEducacion {
@@ -37,6 +55,7 @@
     justify-content: center;
 }
 
+@media only screen and (min-width: 1024px) {
 footer div h3 {
     text-align: center;
     margin-top: 20px;
@@ -83,7 +102,18 @@ footer div h3 {
         width: auto; }
       /*FIN ANIMACION ICONOS REDES SOCIALES*/ 
 
+    }
+
+
+    @media only screen and (max-width: 768px) {
 /* MOBILE */
+
+.fotoDePerfil {
+    width: 90%;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 15%;
+}
 
 footer div h3 {
     display: none; }
@@ -98,9 +128,5 @@ footer div h3 {
     padding: 5px;
     height: 45px;
     width: auto; }
-  .bodyPortafolio {
-    overflow-y: hidden; }
-  .container-fluid {
-    height: 100%; }
-  .footerPortafolio {
-    margin-top: 128px; }
+
+}
