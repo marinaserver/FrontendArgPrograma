@@ -32,18 +32,18 @@
             </nav>
                 <div class="row">
                     <div class="col-lg-12 col-12 botonesInfo">
-                        <button type="button" class="separarBotones">Teléfono</button>
-                        <button type="button" class="separarBotones">Mail</button>
-                        <button type="button" class="separarBotones">Web</button>
-                        <button type="button" class="separarBotones">Ubicación</button>
+                        <button type="button" class="separarBotones" id="numTel">Teléfono</button>
+                        <button type="button" class="separarBotones" id="mailCompleto">Mail</button>
+                        <button type="button" class="separarBotones" id="miPaginaWeb">Web</button>
+                        <button type="button" class="separarBotones" id="ciudad">Ubicación</button>
                     </div>
                 </div>
         </header>
         <main>
             <section aria-label="Resumen sobre mí" class="row">
-                <div class="col-lg-12 col-12 resumenSobreMi">
+                <div class="col-lg-12 col-12 resumenSobreMi" >
                     <h2>Resumen sobre mí</h2>
-                    <p>
+                    <p id="sobreMiId">
                         Busco mi primer experiencia en el mundo de la experiencia de usuario y/o del diseño 
                         ya que estudié la carrera de desarrollo UX/UI en CoderHouse, actualmente estudio 
                         Diseño grafico y estoy realizando el Certificado profesional de Diseño de Experiencia 
@@ -52,7 +52,7 @@
                     </p>
                 </div>
             </section>
-            <section aria-label="Educación">
+            <section aria-label="Educación" class="colorFondo">
                 <div class="row">
                     <div class="col-lg-12 col-12 titulos">
                         <h2>Educación</h2>
@@ -111,7 +111,10 @@
                 </div>
             </section>
             <section aria-label="Habilidades" class="row">
-                <div class="col-lg-12 col-12">
+                <div class="col-lg-2 col-0">
+                    <!-- espacio izquierdo -->
+                </div>
+                <div class="col-lg-8 col-12">
                     <h3 class="titulos">Habilidades</h3>
                     <ul>
                         <li><h6>HTML, CSS, BOOSTRAP</h6>
@@ -138,8 +141,11 @@
                         </li>
                     </ul>
                 </div>
+                <div class="col-lg-2 col-0">
+                    <!-- espacio derecho -->
+                </div>
             </section>
-            <section aria-label="Experiencia laboral">
+            <section aria-label="Experiencia laboral" class="colorFondo">
                 <div class="row">
                     <div class="col-lg-12 col-12">
                         <h3 class="titulos">Experiencia laboral</h3>

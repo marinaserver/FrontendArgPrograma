@@ -42,7 +42,7 @@
 }
 
 tituloCV {
-    font-family: font-family: 'Courgette', cursive;
+    font-family: 'Courgette', cursive;
     font-family: 'Shantell Sans', cursive;
 }
 
@@ -56,6 +56,14 @@ tituloCV {
 }
 
 @media only screen and (min-width: 1024px) {
+
+    .separarBotones {
+        margin: 5%;
+        border-radius: 5px;
+        width: 50%;
+        height: auto;
+}
+
 footer div h3 {
     text-align: center;
     margin-top: 20px;
@@ -130,3 +138,17 @@ footer div h3 {
     width: auto; }
 
 }
+
+
+/*scrolling color*/
+
+#sobreMiId {
+    width: 1000px;
+    height: 100px;
+    background: #70C1A7;
+    transition: width 2s;
+  }
+  
+  #sobreMiId:hover {
+    width: 95%;
+  }
