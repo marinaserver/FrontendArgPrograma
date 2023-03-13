@@ -62,12 +62,29 @@ tituloCV {
         border-radius: 5px;
         width: 50%;
         height: auto;
+    }
+
+    
+/*scrolling color start*/
+
+#sobreMiId {
+  width: 1000px;
+  height: 100px;
+  background: #ffffff /*#70C1A7*/;
+  transition: width 2s;
+}
+/*scrolling color end*/
+
+
+#sobreMiId:hover {
+  width: 95%;
 }
 
-footer div h3 {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 25px; }
+    footer div h3 {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 25px;
+    }
 
 /* PARA CENTRAR ICONOS*/
 .fooLogosRedes {
@@ -139,16 +156,3 @@ footer div h3 {
 
 }
 
-
-/*scrolling color*/
-
-#sobreMiId {
-    width: 1000px;
-    height: 100px;
-    background: #70C1A7;
-    transition: width 2s;
-  }
-  
-  #sobreMiId:hover {
-    width: 95%;
-  }

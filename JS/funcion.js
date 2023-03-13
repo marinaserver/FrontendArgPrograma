@@ -31,9 +31,8 @@ function cambioInfoBoton(id, contacto, infoPersonal) {
 
   /* scrolling color*/
   function scrollingColor() {
-    this.innerHTML = "transitionend event occured - The transition has completed";
-    this.style.backgroundColor = "70C1A7";
+    this.style.backgroundColor = "#70C1A7";
   }
 
   // Standard syntax
-document.getElementById("sobreMiId").addEventListener("transitionend", myFunction);
+document.getElementById("sobreMiId").addEventListener("transitionend", scrollingColor);
