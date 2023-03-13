@@ -133,6 +133,10 @@ tituloCV {
     @media only screen and (max-width: 768px) {
 /* MOBILE */
 
+.fooLogosRedes {
+  display: flex;
+  justify-content: center; }
+
 .fotoDePerfil {
     width: 90%;
     height: auto;
