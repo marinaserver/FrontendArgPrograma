@@ -1,3 +1,11 @@
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+body {
+  overflow-x: hidden; 
+}
 
 .colorFondo{
     background-color: #70C1A7;
